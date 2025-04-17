@@ -54,7 +54,7 @@ public class LinkedIn_LoginPage {
         WebElement setUname=driver.findElement(userName);
         setUname.sendKeys("paulsankalan@gmail.com");
         WebElement pwd=driver.findElement(password);
-        pwd.sendKeys("Sankalan@4198");
+        pwd.sendKeys("****");
         WebElement signIn_Button=driver.findElement(signInButton);
         signIn_Button.click();
         Thread.sleep(8000);

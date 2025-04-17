@@ -40,18 +40,11 @@ public class LinkedIn_Login {
     @Then("I should be logged in successfully")
     public void loggedIn() throws Exception {
         linkedIn_loginPage.verifySuccessfulLogin();
-
-        //driver.get("https://www.linkedin.com/jobs/search/?currentJobId=4183925136&f_TPR=r86400&geoId=105214831&keywords=Software%20QA%20engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true");
-        //Thread.sleep(3000);
-        //linkedIn_loginPage.extractFromThreePages();
-
     }
 
     @Then("I navigate to jobs")
     public void navigate_to_jobs() throws InterruptedException {
         linkedIn_loginPage.navigateToJobs();
-        Thread.sleep(3000);
-        driver.get("https://www.linkedin.com/jobs/search/?currentJobId=4183925136&f_TPR=r86400&geoId=105214831&keywords=Software%20QA%20engineer&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true");
         Thread.sleep(3000);
     }
 

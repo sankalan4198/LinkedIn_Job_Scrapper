@@ -16,12 +16,12 @@ public class Hooks {
             driver.manage().window().maximize();
         }
     }
-    /*
+
     @After
     public void tearDown() {
         if (driver != null) {
             driver.quit();
             driver = null;
         }
-    }*/
+    }
 }
