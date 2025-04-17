@@ -11,6 +11,6 @@ Feature: Login to LinkedIn Website
     When  I enter my user name and password
     Then  I should be logged in successfully
     Then  I navigate to jobs
-    #And   I set the Job Title and Job Location
-    #And   I filter out the date posted as past 24hrs
+    And   I set the Job Title and Job Location
+    And   I filter out the date posted as past 24hrs
     Then  I extract the Job Data as per Company Name and Job Role
